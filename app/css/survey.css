@@ -1,0 +1,28 @@
+.survey-question {
+  text-align: center;
+  margin: 2em 0 2em 0; }
+
+.squiggle-wrapper {
+  cursor: pointer; }
+
+path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 10;
+  animation: draw 6s linear; }
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 1000; }
+  to {
+    stroke-dashoffset: 0; } }
+
+@keyframes shrink {
+  from {
+    stroke-dashoffset: 0; }
+  to {
+    stroke-dashoffset: 1000; } }
+
+.color-block {
+  height: 3em;
+  width: 3em;
+  margin: 3em; }

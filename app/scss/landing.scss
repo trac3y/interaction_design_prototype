@@ -1,0 +1,44 @@
+//////////////////////////// LANDING PAGE ////////////////////////////
+
+.hero {
+	text-align: center;
+	padding: 3em;
+	border-bottom: 1px solid black;
+
+	h1 {
+		font-size: 3em;
+	}
+
+}
+
+.landing-section {
+	border-bottom: 1px solid black;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.landing-2 {
+	text-align: center;
+
+}
+
+.circle-icon {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.circle {
+	width: 8em;
+	height: 8em;
+	border-radius: 50%;
+	background-color: black;
+	text-align: center;
+	line-height: 8em;
+	margin-left: auto;
+	margin-right: auto;
+
+	i {
+		color: white;
+		font-size: 3em;
+		vertical-align: middle;
+	}
+}
