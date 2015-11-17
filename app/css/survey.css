@@ -25,4 +25,5 @@ path {
 .color-block {
   height: 3em;
   width: 3em;
-  margin: 3em; }
+  margin: 3em;
+  float: left !important; }
