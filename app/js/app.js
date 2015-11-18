@@ -33,6 +33,11 @@ function displayCurrentDate() {
 	$('#current-date').html("It's " + dayNames[today.getDay()] + ' ' + monthNames[today.getMonth()] + ' ' + today.getDate() + ' ' + today.getFullYear() + ".");
 }
 
+function delay (URL) {
+    setTimeout( function() { 
+    	window.location = URL }, 1500);
+}
+
 $(function() {
 	app.init();
 	displayCurrentDate();
@@ -54,8 +59,21 @@ $(function() {
 		$('path').attr('stroke', 'black');
 		$(this).css('background-color', 'black');
 		$(this).find('path').attr('stroke', 'white');
-	})
+	});
 
-
+	// Survey Question 4
+	var tellMore;
+	// fill in the blanks
+	$('#fill-in-blanks').on('invalid.fndtn.abide', function () {
+		console.log('yo stop');
+		tellMore = '<p style="display:none;">Wait, fill everything out!</p>';
+		$(tellMore).hide().appendTo('.tell-more').fadeIn(1000);
+		$('#link-to-5').bind('click', false);
+	});
+	$('#fill-in-blanks').on('valid.fndtn.abide', function () {
+		console.log('good shit yo');
+		tellMore = '<p style="display:none;">Really? Tell me more!</p>';
+		$(tellMore).hide().appendTo('.tell-more').fadeIn(1000);
+	});
 
 });

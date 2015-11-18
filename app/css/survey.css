@@ -27,3 +27,9 @@ path {
   width: 3em;
   margin: 3em;
   float: left !important; }
+
+.fill-in-blanks input {
+  display: inline; }
+
+.tell-more {
+  text-align: center; }

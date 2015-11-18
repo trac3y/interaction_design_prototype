@@ -6824,8 +6824,11 @@ th.hide-for-touch {
 .profile-nav-button {
   display: none; }
 
+.hidden {
+  display: none; }
+
 .wrapper {
-  margin: 3em; }
+  margin: 2em; }
 
 .button-wrapper {
   text-align: center; }
