@@ -65,15 +65,15 @@ $(function() {
 	var tellMore;
 	// fill in the blanks
 	$('#fill-in-blanks').on('invalid.fndtn.abide', function () {
-		console.log('yo stop');
-		tellMore = '<p style="display:none;">Wait, fill everything out!</p>';
-		$(tellMore).hide().appendTo('.tell-more').fadeIn(1000);
-		$('#link-to-5').bind('click', false);
+		console.log('bad');
+		$('.complete').css('display', 'none');;
+		$('.incomplete').fadeIn(500);
 	});
 	$('#fill-in-blanks').on('valid.fndtn.abide', function () {
-		console.log('good shit yo');
-		tellMore = '<p style="display:none;">Really? Tell me more!</p>';
-		$(tellMore).hide().appendTo('.tell-more').fadeIn(1000);
+		console.log('good');
+		$('.incomplete').css('display', 'none');;
+		$('.complete').fadeIn(500);
+		$("button[type='submit'] a").attr('href', '/survey_04.html');
 	});
 
 });
