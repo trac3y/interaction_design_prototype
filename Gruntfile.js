@@ -94,6 +94,7 @@ module.exports = function(grunt) {
                     '<%= app %>/survey_01.html',
                     '<%= app %>/survey_02.html',
                     '<%= app %>/survey_03.html',
+                    '<%= app %>/survey_04.html',
                     '<%= app %>/survey_04.html'],
             options: {
                 dest: '<%= dist %>'

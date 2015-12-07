@@ -1,4 +1,5 @@
 //////////////////////////// SURVEY STYLES ////////////////////////////	
+@import 'app';
 
 .survey-question {
 	text-align: center;
@@ -7,6 +8,14 @@
 
 .squiggle-wrapper {
 	cursor: pointer;
+}
+
+.light-background {
+  background-color: $super-light;
+}
+
+.dark-background {
+  background-color: $dark-grey;
 }
 
 path {
@@ -34,12 +43,21 @@ path {
   }
 }
 
+.color-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-row.highlight {
+  background-color: $dark-grey;
+}
+
 .color-block {
 	height: 3em;
 	width: 3em;
 	margin: 3em;
-	float: left!important;
 }
+
 
 .fill-in-blanks {
 	input {
@@ -51,3 +69,22 @@ path {
 	text-align: center;
 }
 
+#zButton {
+  z-index: 2;
+}
+
+.diary {
+  z-index: 2;
+
+  textarea {
+    font-family: $paragraph-font;
+    font-size: 3em;
+    color: $dark-grey;
+    background-color: $light;
+
+  }
+}
+
+.create-account {
+  margin: 2em;
+}

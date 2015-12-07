@@ -1,4 +1,5 @@
 //////////////////////////// SIGNUP PAGE ////////////////////////////
+@import 'app';
 
 .form-wrapper {
 	padding-top: 3em;
@@ -10,4 +11,10 @@
 
 .submit-signup {
 	margin-top: 2em;
+}
+
+.signup-form {
+	label {
+		color: $warm!important;
+	}
 }

@@ -4,6 +4,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -351,6 +352,10 @@ table {
 td,
 th {
   padding: 0; }
+
+@font-face {
+  font-family: 'Courier New';
+  src: url("fonts/Courier New.tff"); }
 
 meta.foundation-version {
   font-family: "/5.5.3/"; }
@@ -6821,6 +6826,9 @@ th.hide-for-touch {
     display: table-cell !important; } }
 
 /* all app scss styles here */
+body {
+  background-color: #f4f4f4; }
+
 .profile-nav-button {
   display: none; }
 
@@ -6829,6 +6837,34 @@ th.hide-for-touch {
 
 .wrapper {
   margin: 2em; }
+
+.overlay {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute !important;
+  background-color: rgba(0, 0, 0, 0.5) !important; }
+
+p {
+  font-family: 'Courier New';
+  color: #7994a6; }
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald'; }
+
+li a {
+  font-family: "Courier New", "bold" !important; }
+
+label {
+  font-family: 'Courier New';
+  color: black; }
+
+.button {
+  background-color: #72c9c1; }
+  .button:hover {
+    background-color: #54a89e; }
 
 .button-wrapper {
   text-align: center; }

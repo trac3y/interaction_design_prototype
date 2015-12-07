@@ -30,7 +30,7 @@ function displayCurrentDate() {
 
 	today.setDate(today.getDate() + 1);    
 
-	$('#current-date').html("It's " + dayNames[today.getDay()] + ' ' + monthNames[today.getMonth()] + ' ' + today.getDate() + ' ' + today.getFullYear() + ".");
+	$('#current-date > p').html("It's " + dayNames[today.getDay()] + ' ' + monthNames[today.getMonth()] + ' ' + today.getDate() + ' ' + today.getFullYear() + ".");
 }
 
 function delay (URL) {
@@ -54,15 +54,22 @@ $(function() {
 		
 	});
 
+	// Survey Question 1
 	$('.squiggle-wrapper').click(function() {
-		$('.squiggle-wrapper').css('background-color', 'white');
+		$('.squiggle-wrapper').addClass('light-background');
 		$('path').attr('stroke', 'black');
-		$(this).css('background-color', 'black');
+		$(this).removeClass('light-background');
+		$(this).addClass('dark-background');
 		$(this).find('path').attr('stroke', 'white');
 	});
 
+	// Survey Question 2
+	$('.color-row').click(function() {
+		$('.color-row').removeClass('highlight');
+		$(this).addClass('highlight');
+	});
+
 	// Survey Question 4
-	var tellMore;
 	// fill in the blanks
 	$('#fill-in-blanks').on('invalid.fndtn.abide', function () {
 		console.log('bad');
@@ -73,7 +80,8 @@ $(function() {
 		console.log('good');
 		$('.incomplete').css('display', 'none');;
 		$('.complete').fadeIn(500);
-		$("button[type='submit'] a").attr('href', '/survey_04.html');
+		$('.submit-button').addClass('hidden');
+		$('.next-button').removeClass('hidden');
 	});
 
 });
