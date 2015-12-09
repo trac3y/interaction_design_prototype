@@ -6,6 +6,7 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
 @import url(https://fonts.googleapis.com/css?family=Muli:400,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -6935,6 +6936,9 @@ body {
   .top-bar ul li a {
     background-color: #333333 !important; }
 
+.top-bar-section {
+  padding-top: 0em; }
+
 .hidden {
   display: none; }
 
@@ -6950,11 +6954,15 @@ body {
   position: absolute !important;
   background-color: rgba(0, 0, 0, 0.5) !important; }
 
+section {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
 a {
   color: white; }
 
 p {
-  font-family: "Courier New";
+  font-family: "Inconsolata";
   color: #7994a6; }
 
 h1, h2, h3, h4 {
@@ -6962,10 +6970,10 @@ h1, h2, h3, h4 {
   font-weight: 400; }
 
 li a {
-  font-family: "Courier New"; }
+  font-family: "Inconsolata"; }
 
 label {
-  font-family: "Courier New";
+  font-family: "Inconsolata";
   color: black; }
 
 .button, button {

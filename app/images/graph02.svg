@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="10 60 180 80" enable-background="new 10 60 180 80" xml:space="preserve">
+<path fill="none" stroke="#7994A6" stroke-miterlimit="10" d="M31.3,100.4c6.6-0.4,13.2-1.5,19.5-3.4c6.8-2.1,13.4-5,20.3-6.3
+	c4.1-0.8,8.4-1,12.6-1.4c5.2-0.6,10.4-1.5,15.5-2.8c3.6-0.9,7.2-2.1,10.9-1.8c2.3,0.1,4.5,0.8,6.8,1c2.5,0.2,5.1-0.1,7.6,0.3
+	c5.6,0.9,9.9,5.3,14.9,8.1c9.7,5.5,21.6,4.6,32.7,3.6"/>
+<polyline fill="none" stroke="#7994A5" stroke-width="2" stroke-miterlimit="10" points="25.7,63.9 25.7,128.9 180.4,128.9 "/>
+<circle fill="#F69276" cx="72.4" cy="90.6" r="1.3"/>
+<g>
+	<g>
+		<line fill="none" stroke="#EAEDEF" stroke-miterlimit="10" x1="72.4" y1="91.9" x2="72.4" y2="92.6"/>
+		
+			<line fill="none" stroke="#EAEDEF" stroke-miterlimit="10" stroke-dasharray="3.0133,3.0133" x1="72.4" y1="94" x2="72.4" y2="126.4"/>
+		<line fill="none" stroke="#EAEDEF" stroke-miterlimit="10" x1="72.4" y1="127.1" x2="72.4" y2="127.8"/>
+	</g>
+</g>
+<rect x="106.4" y="131.2" fill="none" width="17.5" height="5.2"/>
+<text transform="matrix(1 0 0 1 69.177 133.8201)" fill="#72CAC1" font-family="'CourierNewPS-BoldMT'" font-size="3">11/5</text>
+<text transform="matrix(1 0 0 1 172.963 133.8201)" fill="#7994A5" font-family="'CourierNewPS-BoldMT'" font-size="3">Time</text>
+<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 21.9608 70.8467)" fill="#7994A5" font-family="'CourierNewPS-BoldMT'" font-size="3">Mood</text>
+</svg>

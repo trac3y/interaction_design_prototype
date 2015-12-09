@@ -22,6 +22,7 @@ module.exports = function(grunt) {
                     '<%= app %>/css/app.css': '<%= app %>/scss/app.scss',
                     '<%= app %>/css/landing.css': '<%= app %>/scss/landing.scss',
                     '<%= app %>/css/signup.css': '<%= app %>/scss/signup.scss',
+                    '<%= app %>/css/profile.css': '<%= app %>/scss/profile.scss',
                     '<%= app %>/css/survey.css': '<%= app %>/scss/survey.scss'
                 }
             }
@@ -91,6 +92,7 @@ module.exports = function(grunt) {
         useminPrepare: {
             html: ['<%= app %>/index.html', 
                     '<%= app %>/signup.html',
+                    '<%= app %>/profile.html',
                     '<%= app %>/survey_01.html',
                     '<%= app %>/survey_02.html',
                     '<%= app %>/survey_03.html',

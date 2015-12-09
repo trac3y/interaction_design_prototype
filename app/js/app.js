@@ -42,6 +42,32 @@ $(function() {
 	app.init();
 	displayCurrentDate();
 
+	// Profile
+	$('.scopes li a').click(function() {
+		console.log('changing scope');
+		$('.scopes li a').removeClass('active');
+		$(this).addClass('active');
+	});
+
+	$('#week-select').click(function() {
+		$('.graph').addClass('hidden');
+		$('#graph-week').removeClass('hidden');
+	});
+	$('#month-select').click(function() {
+		$('.graph').addClass('hidden');
+		$('#graph-month').removeClass('hidden');
+	});
+	$('#year-select').click(function() {
+		$('.graph').addClass('hidden');
+		$('#graph-year').removeClass('hidden');
+	});
+	$('#all-time-select').click(function() {
+		$('.graph').addClass('hidden');
+		$('#graph-all-time').removeClass('hidden');
+	});
+
+
+	// Survey Question 1
 	$('path').hover(function() {
 		console.log('hover');
 		// $(this).attr('stroke', '#fff');
@@ -54,11 +80,11 @@ $(function() {
 		
 	});
 
-	// Survey Question 1
 	$('.squiggle-wrapper').click(function() {
 		$('.squiggle-wrapper').addClass('light-background');
 		$('path').attr('stroke', 'black');
 		$(this).removeClass('light-background');
+		$('.squiggle-wrapper').removeClass('dark-background');
 		$(this).addClass('dark-background');
 		$(this).find('path').attr('stroke', 'white');
 	});

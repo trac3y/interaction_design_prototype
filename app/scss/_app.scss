@@ -7,6 +7,7 @@
 @import 'settings';
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
 @import url(https://fonts.googleapis.com/css?family=Muli:400,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
 @font-face {
 	font-family: 'Courier New';
 	src: url('fonts/Courier New.tff');
@@ -42,7 +43,7 @@ $super-light: #f4f4f4;
 // $light: #eaedf0;
 // $super-light: #f4f4f4;
 
-$paragraph-font: 'Courier New';
+$paragraph-font: 'Inconsolata';
 $heading-font: 'Oswald';
 $heading-weight: 400;
 
@@ -72,6 +73,9 @@ body {
 	}
 }
 
+.top-bar-section {
+	padding-top: 0em;
+}
 
 //////////////////////////// LAYOUT ////////////////////////////
 .hidden {
@@ -90,6 +94,12 @@ body {
 	left: 0;
 	position: absolute!important;
 	background-color: rgba(0,0,0,0.5)!important;
+}
+
+section {
+	//border-bottom: 1px solid black;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 //////////////////////////// TEXT ////////////////////////////
