@@ -34,8 +34,8 @@ function displayCurrentDate() {
 }
 
 function delay (URL) {
-    setTimeout( function() { 
-    	window.location = URL }, 1500);
+	setTimeout( function() { 
+		window.location = URL }, 1500);
 }
 
 $(function() {
@@ -106,19 +106,33 @@ $(function() {
 
 	});
 
-	// Survey Question 4
+	// Survey Question 3
 	// fill in the blanks
-	$('#fill-in-blanks').on('invalid.fndtn.abide', function () {
-		console.log('bad');
-		$('.complete').css('display', 'none');;
-		$('.incomplete').fadeIn(500);
+	$('#fill-in-blanks input').keyup(function() {
+		var empty = false;
+		$('#fill-in-blanks input').each(function() {
+			if ($(this).val() == "") {
+				empty = true;
+			}
+		});
+
+		if (empty) {
+			$('.next-button').addClass('not-clickable');
+		} else {
+			console.log
+			$('.next-button').removeClass('not-clickable');
+		}
 	});
-	$('#fill-in-blanks').on('valid.fndtn.abide', function () {
-		console.log('good');
-		$('.incomplete').css('display', 'none');;
-		$('.complete').fadeIn(500);
-		$('.submit-button').addClass('hidden');
-		$('.next-button').removeClass('hidden');
+
+	$('#diary > textarea').keyup(function() {
+		var empty = false;
+		if ($('#diary > textarea').val() == "") {
+			empty = true;
+		}
+
+		if (!empty) {
+			$('.next-button').removeClass('not-clickable');
+		}
 	});
 
 });

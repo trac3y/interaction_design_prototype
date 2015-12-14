@@ -58,7 +58,7 @@ path {
 .color-block {
 	height: 3em;
 	width: 3em!important;
-	margin: 3em;
+	margin: 3em 0 3em 0;
 }
 
 
@@ -68,15 +68,11 @@ path {
 	}
 }
 
-.tell-more {
-	text-align: center;
-}
-
 #zButton {
   z-index: 2;
 }
 
-.diary {
+#diary {
   z-index: 2;
 
   textarea {
