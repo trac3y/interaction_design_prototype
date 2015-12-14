@@ -2,23 +2,30 @@
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="10 60 180 80" enable-background="new 10 60 180 80" xml:space="preserve">
-<path fill="none" stroke="#7994A6" stroke-miterlimit="10" d="M32.2,89.8c3.2-0.5,6.7,0.4,9.8-0.7c2-0.7,3.5-2.2,5.2-3.4
-	c3.9-3.1,9.2-5.5,13.9-3.8c1.4,0.5,2.7,1.3,3.9,2.1c6.5,3.8,15,5.3,21.6,1.7c1.3-0.7,2.6-1.6,4-2.1c1.5-0.5,3.1-0.5,4.6-0.5
-	c3,0,6-0.1,8.9-0.1c2.2,0,4.5,0,6.5,0.8c1.2,0.5,2.3,1.3,3.5,1.8c1.1,0.4,2.3,0.6,3.5,0.6c4.1,0.2,8.2-0.3,12.1-1.5
-	c2.3-0.7,4.7-1.7,7-0.9c0.9,0.3,1.6,0.9,2.4,1.3c7.2,3.9,16.4-2.3,24.1,0.4"/>
-<polyline fill="none" stroke="#7994A5" stroke-width="2" stroke-miterlimit="10" points="25.7,63.9 25.7,128.9 180.4,128.9 "/>
-<circle fill="#F69276" cx="155.8" cy="84.8" r="1.3"/>
+	 viewBox="0 0 1280 800" enable-background="new 0 0 1280 800" xml:space="preserve">
+<path fill="none" stroke="#7994A6" stroke-miterlimit="10" d="M167.9,387.5c22.8-3.6,47.6,2.8,69.7-5c14.2-5,24.9-15.6,37-24.2
+	c27.7-22,65.4-39.1,98.8-27c10,3.6,19.2,9.2,27.7,14.9c46.2,27,106.7,37.7,153.6,12.1c9.2-5,18.5-11.4,28.4-14.9
+	c10.7-3.6,22-3.6,32.7-3.6c21.3,0,42.7-0.7,63.3-0.7c15.6,0,32,0,46.2,5.7c8.5,3.6,16.4,9.2,24.9,12.8c7.8,2.8,16.4,4.3,24.9,4.3
+	c29.2,1.4,58.3-2.1,86-10.7c16.4-5,33.4-12.1,49.8-6.4c6.4,2.1,11.4,6.4,17.1,9.2c51.2,27.7,116.6-16.4,171.4,2.8"/>
+<polyline fill="none" stroke="#7994A5" stroke-width="2" stroke-miterlimit="10" points="121.6,203.3 121.6,665.5 1221.7,665.5 "/>
+<circle fill="#F69276" cx="1046.8" cy="351.9" r="9.2"/>
 <g>
 	<g>
-		<line fill="none" stroke="#EAEDEF" stroke-miterlimit="10" x1="155.8" y1="86.2" x2="155.8" y2="87"/>
+		<line fill="none" stroke="#EAEDEF" stroke-miterlimit="10" x1="1046.8" y1="361.9" x2="1046.8" y2="367.6"/>
 		
-			<line fill="none" stroke="#EAEDEF" stroke-miterlimit="10" stroke-dasharray="3.0133,3.0133" x1="155.8" y1="88.6" x2="155.8" y2="125.8"/>
-		<line fill="none" stroke="#EAEDEF" stroke-miterlimit="10" x1="155.8" y1="126.6" x2="155.8" y2="127.4"/>
+			<line fill="none" stroke="#EAEDEF" stroke-miterlimit="10" stroke-dasharray="3.0133,3.0133" x1="1046.8" y1="378.9" x2="1046.8" y2="643.5"/>
+		<line fill="none" stroke="#EAEDEF" stroke-miterlimit="10" x1="1046.8" y1="649.2" x2="1046.8" y2="654.8"/>
 	</g>
 </g>
-<rect x="106.4" y="131.2" fill="none" width="17.5" height="5.2"/>
-<text transform="matrix(1 0 0 1 148.5939 133.8201)" fill="#72CAC1" font-family="'CourierNewPS-BoldMT'" font-size="3">Sept 2015</text>
-<text transform="matrix(1 0 0 1 172.963 133.8201)" fill="#7994A5" font-family="'CourierNewPS-BoldMT'" font-size="3">Time</text>
-<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 21.9608 70.8467)" fill="#7994A5" font-family="'CourierNewPS-BoldMT'" font-size="3">Mood</text>
+<rect x="695.5" y="681.9" fill="none" width="124.4" height="37"/>
+<text transform="matrix(1 0 0 1 995.5598 700.4991)" fill="#72CAC1" font-family="'CourierNewPS-BoldMT'" font-size="21.3333">Sept 2015</text>
+<text transform="matrix(1 0 0 1 1168.8506 700.4991)" fill="#7994A5" font-family="'CourierNewPS-BoldMT'" font-size="21.3333">Time</text>
+<g>
+	
+		<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 58.057 460.0047)" fill="#7994A5" font-family="'CourierNewPS-BoldMT'" font-size="21.3333">Mood</text>
+	
+		<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 97.0565 260.4359)" fill="#7994A5" font-family="'CourierNewPS-BoldMT'" font-size="21.3333">Good</text>
+	
+		<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 97.0568 665.5115)" fill="#7994A5" font-family="'CourierNewPS-BoldMT'" font-size="21.3333">Bad</text>
+</g>
 </svg>
