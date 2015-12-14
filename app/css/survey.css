@@ -7002,6 +7002,11 @@ label {
 
 .squiggle-wrapper {
   cursor: pointer; }
+  @media (max-width: 640px) {
+    .squiggle-wrapper {
+      text-align: center; }
+      .squiggle-wrapper svg {
+        width: 30%; } }
 
 .light-background {
   background-color: #f4f4f4; }
