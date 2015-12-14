@@ -6928,9 +6928,6 @@ th.hide-for-touch {
 body {
   background-color: #f4f4f4; }
 
-.profile-nav-button {
-  display: none; }
-
 .top-bar {
   background-color: #333333; }
   .top-bar ul li a {
@@ -6942,7 +6939,7 @@ body {
 .hidden {
   display: none; }
 
-.wrapper {
+.date-wrapper {
   margin: 2em; }
 
 .overlay {
@@ -6977,6 +6974,7 @@ label {
   color: black; }
 
 .button, button {
+  font-family: "Inconsolata";
   background-color: #72c9c1;
   border-radius: 3px; }
   .button:hover, button:hover {
@@ -6985,6 +6983,14 @@ label {
       color: white; }
 
 .button-wrapper {
+  text-align: center; }
+
+.not-clickable {
+  pointer-events: none;
+  cursor: default;
+  background-color: #eaedf0; }
+
+#login-modal {
   text-align: center; }
 
 .form-wrapper {

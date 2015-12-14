@@ -57,10 +57,6 @@ body {
 }
 
 //////////////////////////// NAVIGATION ////////////////////////////
-.profile-nav-button {
-	display: none;
-}
-
 .top-bar {
 	background-color: $dark;
 
@@ -82,9 +78,9 @@ body {
 	display: none;
 }
 
-.wrapper {
-	margin: 2em;
-}
+ .date-wrapper {
+ 	margin: 2em;
+ }
 
 .overlay {
 	z-index: 2;
@@ -130,6 +126,7 @@ label {
 
 //////////////////////////// BUTTONS ////////////////////////////
 .button, button {
+	font-family: $paragraph-font;
 	background-color: $green;
 	border-radius: 3px;
 
@@ -144,5 +141,23 @@ label {
 .button-wrapper {
 	text-align: center;
 }
+
+.not-clickable {
+	pointer-events: none;
+	cursor: default;
+	background-color: $light;
+}
+
+//////////////////////////// LOGIN ////////////////////////////
+#login-modal {
+	text-align: center;
+}
+
+
+
+
+
+
+
 
 

@@ -92,6 +92,7 @@ module.exports = function(grunt) {
         useminPrepare: {
             html: ['<%= app %>/index.html', 
                     '<%= app %>/signup.html',
+                    '<%= app %>/login.html',
                     '<%= app %>/profile.html',
                     '<%= app %>/survey_01.html',
                     '<%= app %>/survey_02.html',

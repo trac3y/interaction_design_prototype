@@ -1,5 +1,8 @@
 //////////////////////////// SURVEY STYLES ////////////////////////////	
 @import 'app';
+.survey-wrapper {
+  padding-bottom:7em;
+}
 
 .survey-question {
 	text-align: center;
@@ -54,7 +57,7 @@ path {
 
 .color-block {
 	height: 3em;
-	width: 3em;
+	width: 3em!important;
 	margin: 3em;
 }
 

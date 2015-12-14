@@ -42,6 +42,14 @@ $(function() {
 	app.init();
 	displayCurrentDate();
 
+	// Log in
+	$("#login-form").submit(function( event ) {
+		$('.login-nav-button').addClass('hidden');
+		$('.signup-nav-button').addClass('hidden');
+		$('.profile-nav-button').removeClass('hidden');
+		//event.preventDefault();
+	});
+
 	// Profile
 	$('.scopes li a').click(function() {
 		console.log('changing scope');
@@ -81,6 +89,7 @@ $(function() {
 	});
 
 	$('.squiggle-wrapper').click(function() {
+		$('.next-button').removeClass('not-clickable');
 		$('.squiggle-wrapper').addClass('light-background');
 		$('path').attr('stroke', 'black');
 		$(this).removeClass('light-background');
@@ -91,8 +100,10 @@ $(function() {
 
 	// Survey Question 2
 	$('.color-row').click(function() {
+		$('.next-button').removeClass('not-clickable');
 		$('.color-row').removeClass('highlight');
 		$(this).addClass('highlight');
+
 	});
 
 	// Survey Question 4
