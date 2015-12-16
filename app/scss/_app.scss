@@ -120,8 +120,14 @@ li {
 }
 
 label {
-	font-family: $paragraph-font;;
+	font-family: $paragraph-font;
 	color: black;
+}
+
+#login-modal {
+	input {
+		font-family: $paragraph-font;
+	}
 }
 
 //////////////////////////// BUTTONS ////////////////////////////

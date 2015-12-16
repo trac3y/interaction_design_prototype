@@ -11,10 +11,10 @@
     <!-- endbuild -->
     <!-- build:css css/app.min.css -->
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/landing.css">
+    <!-- <link rel="stylesheet" href="css/landing.css"> -->
     <link rel="stylesheet" href="css/signup.css">
-    <link rel="stylesheet" href="css/survey.css">
-    <link rel="stylesheet" href="css/profile.css">
+    <!-- <link rel="stylesheet" href="css/survey.css"> -->
+    <!-- <link rel="stylesheet" href="css/profile.css"> -->
     <link rel="stylesheet" href="css/app_override.css">
     <!-- endbuild -->
     <!-- build:js js/vendor/modernizr.min.js -->
@@ -22,59 +22,77 @@
     <!-- endbuild -->
 </head>
 <body>
-<!-- NAV BAR -->
+    <!-- NAV BAR -->
     <nav class="top-bar sticky" data-topbar data-options="sticky_on: [medium, large]" role="navigation">
         <ul class="title-area">
-            <li class="name"><h1><a href="/index.html">Matter</a></h1></li>
+            <li class="name"><h1><a href="index.html">Matter</a></h1></li>
             <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
         </ul>
 
         <section class="top-bar-section">
             <ul class="right">
-                <li class="signup-nav-button"><a href="/signup.html">Sign Up</a></li>
+                <li class="signup-nav-button"><a href="signup.html">Sign Up</a></li>
                 <!-- <li class="profile-nav-button"><a href="#">Profile</a></li> -->
-                <li class="login-nav-button"><a href="#">Login</a></li>
+                <li class="login-nav-button"><a href="#" data-reveal-id="login-modal">Login</a></li>
             </ul>
         </section>
     </nav>
 
-    <div class="row">
-        <div class="form-wrapper medium-8 columns medium-centered">
-            <h3 class="signup-title">Start tracking your mood and seeing results today.</h3>
-            <form class="signup-form">
-                <div class="row">
-                    <div class="medium-6 columns">
-                        <label>First Name<input type="text" placeholder="First"/></label>
-                    </div>
-                    <div class="medium-6 columns">
-                        <label>Last Name<input type="text" placeholder="Last"/></label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="medium-12 columns">
-                        <label>Email<input type="text" placeholder="your.email@website.com"/></label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="medium-12 columns">
-                        <label>Confirm Email<input type="text" placeholder="your.email@website.com"/></label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="medium-6 columns">
-                        <label>Password<input type="password" placeholder="Your Password"/></label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="medium-6 columns">
-                        <label>Confirm Password<input type="password" placeholder="Confirm Your Password"/></label>
-                    </div>
-                </div>
-                <a role="button" aria-label="submit form" href="/profile.html" class="submit-signup button">Submit</a>
-            </form>
+    <div id="login-modal" class="reveal-modal medium-centered" data-reveal>
+     <h3 style="padding-bottom: 1em;">Login</h3>
+     <form id="login-form" action="survey_01.html">
+        <div class="row">
+            <div>
+                <input type="text" placeholder="your.email@website.com"/>
+            </div>
         </div>
-        
+        <div class="row">
+            <div>
+                <input type="password" placeholder="Your Password"/>
+            </div>
+        </div>
+        <input type="submit" role="button" aria-label="submit form" href="survey_01.html" value="Login" class="submit-signup button">
+    </form>
+    <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div class="row">
+    <div class="form-wrapper medium-8 columns medium-centered">
+        <h3 class="signup-title">Start tracking your mood and seeing results today.</h3>
+        <form class="signup-form">
+            <div class="row">
+                <div class="medium-6 columns">
+                    <label>First Name<input type="text" placeholder="First"/></label>
+                </div>
+                <div class="medium-6 columns">
+                    <label>Last Name<input type="text" placeholder="Last"/></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="medium-12 columns">
+                    <label>Email<input type="text" placeholder="your.email@website.com"/></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="medium-12 columns">
+                    <label>Confirm Email<input type="text" placeholder="your.email@website.com"/></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="medium-6 columns">
+                    <label>Password<input type="password" placeholder="Your Password"/></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="medium-6 columns">
+                    <label>Confirm Password<input type="password" placeholder="Confirm Your Password"/></label>
+                </div>
+            </div>
+            <a role="button" aria-label="submit form" href="profile.html" class="submit-signup button">Submit</a>
+        </form>
     </div>
+
+</div>
 
 
 </body>

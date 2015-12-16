@@ -6973,6 +6973,9 @@ label {
   font-family: "Inconsolata";
   color: black; }
 
+#login-modal input {
+  font-family: "Inconsolata"; }
+
 .button, button {
   font-family: "Inconsolata";
   background-color: #72c9c1;

@@ -42,14 +42,6 @@ $(function() {
 	app.init();
 	displayCurrentDate();
 
-	// Log in
-	$("#login-form").submit(function( event ) {
-		$('.login-nav-button').addClass('hidden');
-		$('.signup-nav-button').addClass('hidden');
-		$('.profile-nav-button').removeClass('hidden');
-		//event.preventDefault();
-	});
-
 	// Profile
 	$('.scopes li a').click(function() {
 		console.log('changing scope');
