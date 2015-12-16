@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="en" >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matter</title>
+    <link rel="stylesheet" href="css/libraries.min.css">
+    <link rel="stylesheet" href="css/app.min.css">
+    <script src="js/vendor/modernizr.min.js"></script>
+</head>
+<body>
+  <!-- NAV BAR -->
+  <nav class="top-bar sticky" data-topbar data-options="sticky_on: [medium, large]" role="navigation">
+    <ul class="title-area">
+        <li class="name"><h1><a href="index.html">Matter</a></h1></li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+        <ul class="right">
+            <li class="profile-nav-button hidden"><a href="#">Profile</a></li>
+            <li class="login-nav-button"><a data-reveal-id="login-modal" href="#">Login</a></li>
+            <li class="login-nav-button hidden"><a href="index.html">Logout</a></li>
+            <li class="signup-nav-button"><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </section>
+</nav>
+
+<div id="login-modal" class="reveal-modal medium-centered" data-reveal>
+   <h3 style="padding-bottom: 1em;">Login</h3>
+   <form id="login-form" action="/survey_01.html">
+    <div class="row">
+        <div>
+            <input type="text" placeholder="your.email@website.com"/>
+        </div>
+    </div>
+    <div class="row">
+        <div>
+            <input type="password" placeholder="Your Password"/>
+        </div>
+    </div>
+    <input type="submit" role="button" aria-label="submit form" href="survey_01.html" value="Login" class="submit-signup button">
+</form>
+<a class="close-reveal-modal">&#215;</a>
+</div>
+
+   <section class="hero">
+    <div class="row">
+        <div class="large-6 columns large-centered">
+            <h1>YOU MATTER</h1>
+            <p>We're listening, all you have to do is talk.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-6 columns large-centered try-button">
+            <a href="survey_01.html" class="button expand">How was your day?</a>
+        </div>
+    </div>
+</section>
+
+<section class="landing-1 landing-section">
+    <div class="row">
+        <div class="medium-4 columns">
+            <div class="circle-icon">
+                <div class="circle"><i class="fa fa-line-chart"></i></div>
+            </div>
+            <p>Track your overall mood changes over time and notice interesting patterns.</p>
+        </div>
+        <div class="medium-4 columns">
+            <div class="circle-icon">
+                <div class="circle"><i class="fa fa-pencil"></i></div>
+            </div>
+            <p>Tell us how you're feeling. Feel free to vent, rave, gossip, whatever! We want to hear more.</p>
+        </div>
+        <div class="medium-4 columns">
+            <div class="circle-icon">
+                <div class="circle"><i class="fa fa-paper-plane"></i></div>
+            </div>
+            <p>If you're feeling ambitious, share your results and let people know how you're doing.</p>
+        </div>
+    </div>
+</section>
+
+<section class="landing-2 landing-section">
+    <div class="row">
+        <p>Sign up today to instantly see results. Share your thoughts and start seeing patterns in your mood!</p>
+    </div>
+    <div class="large-3 columns large-centered signup-button">
+        <a href="signup.html" class="button">Sign Up</a>
+    </div>
+</section>
+
+
+</body>
+<script src="js/vendor/libraries.min.js"></script>
+<script src="js/vendor/foundation.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+</html>

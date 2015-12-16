@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1280 800" enable-background="new 0 0 1280 800" xml:space="preserve">
+<path fill="none" stroke="#7994A6" stroke-miterlimit="10" d="M192.8,460.7c20.6-3.6,42,1.4,59,12.8c19.9,12.8,33.4,33.4,54,45.5
+	c17.8,10,38.4,12.1,58.3,14.2s39.8,4.3,59,0.7c12.8-2.8,25.6-7.8,37-13.5c71.8-37.7,118.8-118,197-139.4
+	c29.2-7.8,59.7-7.1,88.9-14.2c37-9.2,72.5-31.3,110.9-29.2"/>
+<polyline fill="none" stroke="#7994A5" stroke-width="2" stroke-miterlimit="10" points="121.6,203.3 121.6,665.5 1221.7,665.5 "/>
+<circle fill="#F69276" cx="736.8" cy="369.7" r="9.2"/>
+<g>
+	<g>
+		<line fill="none" stroke="#EAEDEF" stroke-miterlimit="10" x1="736.8" y1="379.6" x2="736.8" y2="384.6"/>
+		
+			<line fill="none" stroke="#EAEDEF" stroke-miterlimit="10" stroke-dasharray="3.0133,3.0133" x1="736.8" y1="395.3" x2="736.8" y2="648.4"/>
+		<line fill="none" stroke="#EAEDEF" stroke-miterlimit="10" x1="736.8" y1="654.1" x2="736.8" y2="659.1"/>
+	</g>
+</g>
+<rect x="695.5" y="681.9" fill="none" width="124.4" height="37"/>
+<text transform="matrix(1 0 0 1 702.8146 700.4991)" fill="#72CAC1" font-family="'CourierNewPS-BoldMT'" font-size="21.3333">August</text>
+<text transform="matrix(1 0 0 1 1168.8506 700.4991)" fill="#7994A5" font-family="'CourierNewPS-BoldMT'" font-size="21.3333">Time</text>
+<g>
+	
+		<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 58.0569 460.0047)" fill="#7994A5" font-family="'CourierNewPS-BoldMT'" font-size="21.3333">Mood</text>
+	
+		<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 97.0564 260.436)" fill="#7994A5" font-family="'CourierNewPS-BoldMT'" font-size="21.3333">Good</text>
+	
+		<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 97.0566 665.5116)" fill="#7994A5" font-family="'CourierNewPS-BoldMT'" font-size="21.3333">Bad</text>
+</g>
+</svg>

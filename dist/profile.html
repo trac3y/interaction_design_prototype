@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="no-js" lang="en" >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matter | Your Profile </title>
+    <link rel="stylesheet" href="css/libraries.min.css">
+    <link rel="stylesheet" href="css/app.min.css">
+    <script src="js/vendor/modernizr.min.js"></script>
+</head>
+<body>
+    <nav class="top-bar sticky" data-topbar data-options="sticky_on: [medium, large]" role="navigation">
+        <ul class="title-area">
+            <li class="name"><h1><a href="index.html">Matter</a></h1></li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <ul class="right">
+                <li class="profile-nav-button"><a href="profile.html">Profile</a></li>
+                <li class="login-nav-button"><a href="index.html">Log Out</a></li>
+            </ul>
+        </section>
+    </nav>
+
+    <section class="section landing-1">
+        <div class="wrapper medium-12 columns medium-centered">
+            <div class="row">
+                <div id="current-date"><p></p></div>
+            </div>
+            <div class="row">
+                <h2>Hi Chuck!</h2>
+                <p class="fill-out-survey-message">It looks like you haven't filled out your survey for today yet. Why don't you go ahead and do that now?</p>
+            </div>
+            <div class="row">
+                <div class="small-7 columns small-centered" style="text-align:center">
+                    <a href="/survey_01.html" class="button">How was your day?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="medium-12 medium-centered">
+            <ul class="inline-list title-area scopes">
+                <li><a class="active" id="week-select">This Week</a></li>
+                <li><a id="month-select">This Month</a></li>
+                <li><a id="year-select">This Year</a></li>
+                <li><a id="all-time-select">Since the Beginning of Time</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <h3>Overall Mood</h3>
+        <div class="medium-12 medium-centered">
+            <img id="graph-week" class="graph" src="images/graph01.svg">
+            <img id="graph-month" class="hidden graph" src="images/graph02.svg">
+            <img id="graph-year" class="hidden graph" src="images/graph03.svg">
+            <img id="graph-all-time" class="hidden graph" src="images/graph04.svg">
+        </div>
+    </div>
+</section>
+
+<section class="section landing-3">
+    <div class="row">
+        <h3>Mood Breakdown</h3>
+        <div class="medium-8 columns">
+            <img id="pie-chart-01" class="pie-chart" src="images/pie_chart.svg">
+        </div>
+        <div class="medium-4 columns col" style="padding-top: 20%;">
+            <p>The past week you've been feeling kind of angry. JFKLW;EAJLRAWEJLRAJRL;KA!!!!!! Did that feel better?</p>
+        </div>
+    </div>
+</section>
+
+<section class="section bar-graphs landing-4">
+    <div class="row">
+        <div class="medium-6 columns">
+            <h4>Anger</h4>
+            <img id="bar01" class="bar-graph" src="images/mood01.svg">
+        </div>
+        <div class="medium-6 columns">
+            <h4>Calmness</h4>
+            <img id="bar02" class="bar-graph" src="images/mood02.svg">
+        </div>
+    </div>
+    <div class="row">
+        <div class="medium-6 columns">
+            <h4>Happiness</h4>
+            <img id="bar03" class="bar-graph" src="images/mood03.svg">
+        </div>
+        <div class="medium-6 columns">
+            <h4>Sadness</h4>
+            <img id="bar04" class="bar-graph" src="images/mood04.svg">
+        </div>
+    </div>
+</section>
+
+</body>
+<script src="js/vendor/libraries.min.js"></script>
+<script src="js/vendor/foundation.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+</html>
