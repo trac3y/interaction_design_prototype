@@ -6863,7 +6863,8 @@ section {
   padding-bottom: 2em; }
 
 a {
-  color: white; }
+  color: white;
+  font-family: "Inconsolata"; }
 
 p {
   font-family: "Inconsolata";

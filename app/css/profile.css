@@ -6956,7 +6956,8 @@ section {
   padding-bottom: 2em; }
 
 a {
-  color: white; }
+  color: white;
+  font-family: "Inconsolata"; }
 
 p {
   font-family: "Inconsolata";
@@ -7003,7 +7004,8 @@ li:nth-of-type(1) {
   margin-left: 0em; }
 
 .scopes li a {
-  color: #7994a6; }
+  color: #7994a6;
+  font-weight: bold; }
   .scopes li a:hover {
     color: #72c9c1; }
 
