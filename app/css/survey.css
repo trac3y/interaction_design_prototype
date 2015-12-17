@@ -6956,7 +6956,8 @@ section {
   padding-bottom: 2em; }
 
 a {
-  color: white; }
+  color: #7994a6;
+  font-weight: bold; }
 
 p {
   font-family: "Inconsolata";
